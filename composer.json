@@ -1,5 +1,5 @@
 {
-    "name": "igorw/composer-yaml",
+    "name": "intentionalistdev/composer-yaml",
     "description": "Tool to convert from composer.yml to composer.json.",
     "license": "MIT",
     "require": {
