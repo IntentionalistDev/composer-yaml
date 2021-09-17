@@ -18,8 +18,8 @@ $console = new Application();
 $console
     ->register('convert')
     ->setDefinition(array(
-        new InputArgument('from', InputArgument::OPTIONAL, null, 'composer.yml'),
-        new InputArgument('to', InputArgument::OPTIONAL, null, 'composer.json'),
+        new InputArgument('from', InputArgument::OPTIONAL, "", 'composer.yml'),
+        new InputArgument('to', InputArgument::OPTIONAL, "", 'composer.json'),
     ))
     ->setDescription('Converts a composer.yml to json or vice-versa')
     ->setCode(function (InputInterface $input, OutputInterface $output) {
