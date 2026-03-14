@@ -1,9 +1,10 @@
 name: intentionalistdev/composer-yaml
 description: Tool to convert from composer.yml to composer.json.
 license: MIT
+version: 1.2.2
 require:
-    symfony/console: '~8'
-    symfony/yaml: '~8'
-    composer/composer: '~2'
+    symfony/console: '*'
+    symfony/yaml: '*'
+    composer/composer: '*'
 bin:
     - bin/composer-yaml
