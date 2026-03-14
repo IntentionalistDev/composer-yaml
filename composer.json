@@ -4,8 +4,8 @@
     "license": "MIT",
     "version": "1.2",
     "require": {
-        "symfony/console": "~5.3",
-        "symfony/yaml": "~5.3",
+        "symfony/console": "~8",
+        "symfony/yaml": "~8",
         "composer/composer": "~2"
     },
     "bin": [
